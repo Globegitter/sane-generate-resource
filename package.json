@@ -1,0 +1,27 @@
+{
+  "name": "machinepack-sanegenerateresource",
+  "version": "0.1.0",
+  "description": "Sane addon for generating backend and frontend resources",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -b"
+  },
+  "keywords": [
+    "sane-generate-resource",
+    "machines",
+    "machinepack",
+    "sane-addon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "machinepack": {
+    "friendlyName": "sane-generate-resource",
+    "machineDir": "machines/",
+    "machines": ["frontend", "backend"]
+  }
+}
