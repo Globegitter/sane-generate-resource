@@ -22,6 +22,6 @@
   "machinepack": {
     "friendlyName": "sane-generate-resource",
     "machineDir": "machines/",
-    "machines": ["frontend", "backend"]
+    "machines": ["client", "server"]
   }
 }
